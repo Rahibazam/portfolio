@@ -1,0 +1,78 @@
+
+
+/* shared styles */
+
+*{
+    margin: 0px;
+}
+
+.shared-container{
+    width: 1140px;
+}
+
+.primary-font{
+    font-family: "Azeret Mono", serif;
+    font-size: 16px;
+    font-weight: normal;
+    color: #0D1321;
+}
+
+.secondary-font{
+    font-family: "Azeret Mono", serif;
+    font-size: 32px;
+    font-weight: 600;
+    color: #0D1321;
+}
+
+.optional-font{
+    font-family: "Azeret Mono", serif;
+    font-size: 242px;
+    font-weight: bold;
+    color: #565A64;
+}
+
+.primary-btn{
+    font-family: "Azeret Mono", serif;
+    padding: 10px 24px;
+    font-size: 20px;
+    color: #565A64;
+    background-color: white;
+    border: #565A64 solid 1px;
+    
+}
+
+:hover.primary-btn{
+    font-family: "Azeret Mono", serif;
+    background-color: #565A64;
+    color: white;
+    border: #565A64 solid 1px;
+    transition: 0.3s;
+}
+
+
+/* header styles */
+
+header > .shared-container{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding: 50px 0px;
+    text-align: center;
+}
+
+.resume-btn > .primary-btn{
+    border-radius: 3px;
+}
+
+/* header styles for mobile */
+
+@media screen and (max-width: 576px) {
+    header > .shared-container{
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .resume-btn > .primary-btn{
+        margin-top: 20px;
+    }
+}
