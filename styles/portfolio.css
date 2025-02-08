@@ -364,6 +364,10 @@ header > .shared-container{
 
 /* current target styles */
 
+.current-target{
+    margin-bottom: 111px;
+}
+
 .current-target > .shared-container{
     margin: auto;
 }
@@ -476,4 +480,47 @@ header > .shared-container{
     .current-target-cards{
         flex-direction: column;
     }
+}
+
+/* my next target styles */
+
+.next-target{
+    margin-bottom: 49px;
+}
+
+.next-target > .shared-container{
+    margin: auto;
+}
+
+.next-target-content{
+    text-align: center;
+    margin-bottom: 34px;
+}
+
+.target-card{
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    padding: 40px;
+    margin: 20px;
+}
+
+.target-tile{
+    display: flex;
+    gap: 24px;
+    align-items: center;
+
+}
+
+:hover.target-card{
+    transform: scale(1.05);
+    box-shadow: rgba(0, 76, 232, 1) 1px 1px 9px;
+    transition: 0.3s;
+
+}
+
+.target-info > a{
+    font-size: 16px;
+    font-family: "Azeret Mono", serif;
+    font-weight: bold;
+    color: black;
 }
