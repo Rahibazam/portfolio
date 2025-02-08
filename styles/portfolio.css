@@ -620,4 +620,45 @@ input[type="submit"]{
     }
 }
 
+/* footer styles */
+
+footer{
+    background-color: rgba(13, 19, 33, 0.03);
+}
+
+footer > .shared-container{
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px 150px;
+}
+
+.footer-content > p{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.github{
+    margin: auto 20px;
+}
+
+:hover.facebook > img, :hover.github > img, :hover.linkedin > img{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+/* footer styles for mobile */
+
+@media screen and (max-width: 576px) {
+    footer > .shared-container{
+        flex-direction: column;
+        padding: 32px 50px;
+    }
+
+    .footer-content > p{
+        text-align: center;
+    }
+}
+
 
