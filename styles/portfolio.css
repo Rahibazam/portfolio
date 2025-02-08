@@ -464,3 +464,16 @@ header > .shared-container{
     font-weight: bold;
     color: black;
 }
+
+/* current target styles for mobile */
+
+@media screen and (max-width: 576px){
+
+    .current-target > .shared-container{
+        width: 95%;
+    }
+
+    .current-target-cards{
+        flex-direction: column;
+    }
+}
