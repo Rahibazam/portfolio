@@ -328,6 +328,7 @@ header > .shared-container{
 
 .inspiration-video > iframe{
     margin: 32px 0px;
+    border-radius: 16px;
 }
 
 /* my inspiration styles for mobile */
