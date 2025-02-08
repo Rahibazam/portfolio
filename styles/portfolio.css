@@ -524,3 +524,18 @@ header > .shared-container{
     font-weight: bold;
     color: black;
 }
+
+/* my next target styles for mobile */
+
+@media screen and (max-width: 576px) {
+    .target-tile{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .next-target-content{
+        padding: 10px 5%;
+        margin-bottom: 5px;
+    }
+}
+
+
