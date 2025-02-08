@@ -31,6 +31,13 @@
     color: #565A64;
 }
 
+.optional-secondary-font{
+    font-family: "Azeret Mono", serif;
+    font-size: 24px;
+    font-weight: 800;
+    color: black;
+}
+
 .primary-btn{
     font-family: "Azeret Mono", serif;
     padding: 10px 24px;
@@ -353,4 +360,107 @@ header > .shared-container{
         width: 90%;
         height: auto;
     }
+}
+
+/* current target styles */
+
+.current-target > .shared-container{
+    margin: auto;
+}
+
+.current-target-content{
+    text-align: center;
+}
+
+.current-target-content > h3, p{
+    margin: 24px auto;
+}
+
+.current-target-cards{
+    margin: 30px 0px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 24px;
+}
+
+.current-target-card-1{
+    background-color: rgba(255, 76, 30, 0.05);
+    max-width: 364px;
+    max-height: auto;
+    padding: 40px;
+    border-radius: 16px;
+}
+
+:hover.current-target-card-1{
+    box-shadow: 0px 0px 10px rgba(255, 76, 30, 0.7);
+    background-color: rgba(255, 76, 30, 0.5);
+    border: none;
+    transition: 0.4s;
+}
+
+.current-target-card-1 > img, h4{
+    margin-bottom: 24px;
+}
+
+.current-target-card-1 > a{
+    margin-top: 24px;
+    font-size: 16px;
+    font-family: "Azeret Mono", serif;
+    font-weight: bold;
+    color: black;
+}
+
+.current-target-card-2{
+    background-color: rgba(0, 76, 232, 0.05);
+    max-width: 364px;
+    max-height: auto;
+    padding: 40px;
+    border-radius: 16px;
+}
+
+:hover.current-target-card-2{
+    box-shadow: 0px 0px 10px rgba(0, 76, 232, 0.7);
+    background-color: rgba(0, 76, 232, 0.5);
+    border: none;
+    transition: 0.4s;
+}
+
+.current-target-card-2 > img, h4{
+    margin-bottom: 24px;
+}
+
+.current-target-card-2 > a{
+    margin-top: 24px;
+    font-size: 16px;
+    font-family: "Azeret Mono", serif;
+    font-weight: bold;
+    color: black;
+}
+
+
+.current-target-card-3{
+    background-color: rgba(255, 223, 0, 0.05);
+    max-width: 364px;
+    max-height: auto;
+    padding: 40px;
+    border-radius: 16px;
+}
+
+:hover.current-target-card-3{
+    box-shadow: 0px 0px 10px rgba(255, 223, 0, 0.7);
+    background-color: rgba(255, 223, 0, 0.5);
+    border: none;
+    transition: 0.4s;
+}
+
+.current-target-card-3 > img, h4{
+    margin-bottom: 24px;
+}
+
+.current-target-card-3 > a{
+    margin-top: 24px;
+    font-size: 16px;
+    font-family: "Azeret Mono", serif;
+    font-weight: bold;
+    color: black;
 }
