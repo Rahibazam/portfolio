@@ -538,4 +538,86 @@ header > .shared-container{
     }
 }
 
+/* need support styles */
+
+.support-form{
+    margin-bottom: 80px;
+}
+
+.support-form > .shared-container{
+    flex: block;
+    text-align: center;
+    align-content: center;
+    margin: auto;
+    height: 313px;
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(13, 19, 33, 0.7)), url(../images/handshake.jpg);
+    background-color: rgba(0, 0, 0, 0.2);
+    background-position: center;
+    border-radius: 16px;
+}
+
+.support-form > .shared-container > p {
+    color: white;
+    padding: 0% 22%;
+}
+
+.support-form > .shared-container > h3 {
+    color: white;
+}
+
+
+input[type="text"]{
+    padding: 16px 20px;
+    width: 548px;
+    border: none;
+    border-radius: 8px;
+    font-family: "Azeret Mono", serif;
+    font-size: 16px;
+}
+
+input[type="submit"]{
+    background-color: white;
+    font-family: "Azeret Mono", serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #0D1321;
+    border-radius: 8px;
+    border: none;
+    padding: 16px 20px;
+    margin-left: 16px;
+
+}
+
+/* need support styles for mobile */
+
+@media screen and (max-width: 576px) {
+
+    .support-form{
+        width: 90%;
+        margin: auto auto 30px auto;
+    }
+
+    .support-form > .shared-container{
+        padding: 10px;
+        background-image: none;
+        background-color: #565A64;
+    }
+
+    .support-form > .shared-container > p {
+        color: white;
+        padding: 0% 10%;
+    }
+
+    input[type="text"] {
+        width: 80%;
+        padding: 5% 5%;
+    }
+
+    input[type="submit"] {
+        width: 30%;
+        padding: 4% 5%;
+        margin-top: 15px;
+    }
+}
+
 
